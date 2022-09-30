@@ -1,0 +1,21 @@
+.botao{
+  padding: 1rem 2rem;
+  display: inline-block;
+  background: linear-gradient(180deg, #BCD9FD 0%, #B0CCED 0.01%, #59A1F7 100%);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  color: var(--texto-bn);
+  font: 700 1.5rem 'Poppins', 'sans serif';
+  transition: 0.3s;
+}
+
+.botao:hover{
+  background: linear-gradient(180deg, #97bae6 0%, #7ca2ce 0.01%, #2a74ce 100%);
+}
+
+@media (max-width:1200px){
+  .botao{
+  padding: 0.5rem 1rem;  
+  font-size: 1.125rem;
+  }
+}

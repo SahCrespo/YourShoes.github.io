@@ -1,0 +1,49 @@
+.header-bg{
+  background-color: black;
+  height: 100px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header-menu{
+  display: flex;
+  gap: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-menu a{
+  padding: 1.25rem 0;
+  display: inline-block;
+  color: var(--cor-text-1);
+  font:500 1.125rem 'Poppins','sans serif';
+}
+
+.header-menu a:hover{
+  color: var(--cor-texto-principal);
+}
+
+.icons-menu a:hover{
+  color: var(--cor-texto-principal);
+}
+
+.menu-item a::after{
+  content: '';
+  display: block;
+  margin-top:0.25rem;
+  width: 0%;
+  height: 0.125rem;
+  background: var(--cor-text-1);
+  transition: 0.2ms;
+  position: absolute;
+}
+
+.menu-item a:hover::after{
+  width: 100%;
+}

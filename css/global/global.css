@@ -1,0 +1,41 @@
+*{
+  --bg-primaria : #000;
+  --bg-secundaria: #111;
+  --cor-text-1:#d1d1d1;
+  --cor-texto-principal:#FFFFFF;
+  --cor-bn: linear-gradient(180deg, #BCD9FD 0%, #B0CCED 0.01%, #59A1F7 100%);
+  --texto-bn:#002367;
+  --corpo-de-textos:#bababa;
+  }
+  
+  body{
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 2000px;
+  }
+  
+  ul, li, a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  a{
+    color: inherit;
+  }
+  
+  img{
+    display: block;
+    max-width: 100%;
+  }
+  
+  h1, p{
+    margin: 0;
+  }
+  
