@@ -5,6 +5,7 @@
   --cor-texto-principal:#FFFFFF;
   --cor-bn: linear-gradient(180deg, #BCD9FD 0%, #B0CCED 0.01%, #59A1F7 100%);
   --texto-bn:#002367;
+  --cor-enfase:#045CC3;
   --corpo-de-textos:#bababa;
   }
   
@@ -35,7 +36,7 @@
     max-width: 100%;
   }
   
-  h1, p{
+  h1, h2,h3, p{
     margin: 0;
   }
   
