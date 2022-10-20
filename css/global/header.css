@@ -29,7 +29,7 @@
   color: var(--cor-texto-principal);
 }
 
-.icons-menu a:hover{
+.icons-menu a img:hover{
   color: var(--cor-texto-principal);
 }
 

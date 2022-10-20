@@ -1,0 +1,60 @@
+.quem-usa h2{
+  padding: 60px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quem-usa-container img{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.quem-usa-container{
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+  margin: 0 48px;
+  margin-bottom: 120px;
+}
+
+.quem-usa-item{
+  position: relative;
+}
+
+.btn{
+ position:absolute;
+ left:100px;
+ bottom: 32px;
+}
+
+
+@media(max-width:1000px){
+  .btn{
+    left:80px;
+  }
+
+  .quem-usa h2{
+  font-size: 3rem;
+  padding: 40px;
+  }
+}
+@media(max-width:800px){
+  .btn{
+    left:30px;
+    padding: 0.25rem 0.5rem !important; 
+    font-size: 0.825rem !important; 
+  }
+
+  .quem-usa-container{
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .quem-usa h2{
+    font-size: 2rem;
+    padding: 30px;
+}
+}

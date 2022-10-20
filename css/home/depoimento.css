@@ -1,0 +1,8 @@
+.depoimento-bg{
+    background: #BCD9FD;
+    color: var(--cor-texto-principal);
+}
+
+.depoimento{
+  display: flex;
+}

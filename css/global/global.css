@@ -6,6 +6,7 @@
   --cor-bn: linear-gradient(180deg, #BCD9FD 0%, #B0CCED 0.01%, #59A1F7 100%);
   --texto-bn:#002367;
   --cor-enfase:#045CC3;
+  --cor-bt:#A8D9FC;
   --corpo-de-textos:#bababa;
   }
   
@@ -16,7 +17,7 @@
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-    height: 2000px;
+    height: 6000px;
   }
   
   ul, li, a{
