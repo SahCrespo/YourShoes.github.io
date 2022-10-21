@@ -10,11 +10,11 @@
 }
 
 .card-tenis{
-  display: flex;
-  gap: 1rem 1rem;
-  align-items: flex-start;
-  padding-bottom: 1rem;
-  overflow-x:scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 1rem;
+  padding: 0 5rem;
 }
 .font-1-xl{
   color: var(--bg-secundaria);
@@ -24,7 +24,7 @@
   background: var(--cor-texto-principal);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  padding:0.25rem 1.25rem ;
+  padding:0.25rem 1rem ;
 }
 
 .descricao-cards p:nth-child(2){
@@ -32,12 +32,22 @@
 }
 
 .card-tenis img{
-  display: block;
-  max-width: 300px;
-  height: 280;
+  display: inline-block;
+  width: 300px;
+  height: auto;
 }
 
 @media (max-width:1000px){
+
+  .card-tenis img{
+    max-width: 200px;
+    
+  }
+
+  .card-tenis{
+    overflow-x:scroll;
+  }
+
   .container-cards h2{
     font-size: 3rem;
   }
@@ -49,7 +59,14 @@
 
 @media (max-width:800px){
   .container-cards{
-    margin-bottom:  7rem;
+    margin-bottom:  6rem;
+  }
+
+  .card-tenis{
+    display: flex;
+    padding:2rem 1rem ;
+    align-items: flex-start;
+    
   }
 
   .container-cards h2{
@@ -59,7 +76,5 @@
   .card p{
     font-size: 1rem;
   }
-  .card h2{
-    font-size: 1rem;
-  }
+ 
 }
