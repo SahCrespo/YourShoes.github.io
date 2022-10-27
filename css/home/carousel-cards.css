@@ -27,6 +27,10 @@
   padding:0.25rem 1rem ;
 }
 
+.descricao-cards p {
+  margin:4px 0;
+}
+
 .descricao-cards p:nth-child(2){
   color: var(--cor-enfase);
 }

@@ -1,0 +1,134 @@
+.tenis-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 0 8rem;
+}
+
+
+.titulo-bg p, li{
+  color: var(--cor-principal);
+} 
+
+.tenis-container h1{
+  grid-column: 1/-1;
+  padding-bottom: 2rem;
+}
+
+.tenis-imagem img{
+  display: inline-block;
+  max-width: 520px;
+  height: auto;
+  border-radius: 10px;
+  grid-area: 1/-1;
+}
+
+.tenis-imagem{
+  display: grid;
+  justify-content: center;
+}
+
+.tenis-imagem span{
+  grid-area: 1/-1 ;
+  place-self: start end;
+  margin-top: 1rem;
+  background: #111;
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  border-radius: 5px 0 0 5px;
+}
+
+.medidas{
+  color: var(--corpo-de-textos);
+}
+
+.descricao p:nth-child(1){
+  margin-bottom: 2rem;
+}
+
+.tenis-compra{
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  gap: 8px 12px;
+  color: var(--corpo-de-textos);
+}
+
+.tenis-compra span{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+}
+
+.medidas ul{
+  display: flex;
+  gap: 0  1rem;
+}
+
+.medidas ul li{
+  border: 1px solid var(--corpo-de-textos);
+  padding: 4px;
+}
+
+.botao{
+  margin: 1rem 0;
+}
+
+.cor-tenis ul{
+  display: flex;
+  gap: 1rem;
+}
+
+.verde{
+  padding: 20px 30px;
+  background-color: #345A31;
+}
+.vermelho{
+  padding: 20px 30px;
+  background-color: #581220;
+}
+.azul{
+  padding: 20px 30px;
+  background-color: #0D36A0;
+}
+
+.informacoes{
+  margin-top: 3rem;
+}
+
+.informacoes h3{
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.informacoes p{
+  margin: 4px;
+}
+
+.cards-produtos h2{
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.card-tenis{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 0 ;
+}
+
+@media (max-width: 1000px){
+  .tenis-container{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    
+  }
+
+  .card-tenis{
+    flex-wrap: nowrap;
+  }
+}
