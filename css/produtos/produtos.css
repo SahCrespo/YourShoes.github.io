@@ -18,3 +18,16 @@
     padding-bottom: 4rem;
   }
 }
+
+@media (max-width: 800px){
+  .tenis{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+    
+  }
+}
+
