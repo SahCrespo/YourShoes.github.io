@@ -121,6 +121,17 @@
   padding-top: 0 ;
 }
 
+.medidas li:hover{
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.guia:hover{
+  color: #fff;
+}
+
+
+
 @media (max-width: 1000px){
   .tenis-container{
     grid-template-columns: 1fr;
