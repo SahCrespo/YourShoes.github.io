@@ -106,6 +106,7 @@
 
 .informacoes p{
   margin: 4px;
+  text-align: start;
 }
 
 .cards-produtos h2{
@@ -161,6 +162,14 @@
   }
   .tenis-compra{
     gap: 2px;
+  }
+
+  .cards-produtos h2{
+    margin-top: 3rem;
+  }
+
+  .cor-tenis ul{
+    justify-content: center;
   }
 
 }

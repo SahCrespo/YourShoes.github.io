@@ -52,3 +52,10 @@
     font-weight: 400;
   }
 }
+
+@media (max-width: 600px) {
+  .titulo-bg {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
