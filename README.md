@@ -6,7 +6,7 @@
 
 ## O projeto
 
-* No projeto Yourshoes eu trabalhei no desenvolvimento completo do HTML, CSS e estou aprendendo JavaScript para poder implementar no site também. Além disso, também fiz o Desing do site no Figma.
+* No projeto Yourshoes eu trabalhei no desenvolvimento completo do HTML, CSS e estou aprendendo JavaScript para poder implementar no site também. Além disso, também fiz o Design do site no Figma.
 
 ### Site Responsivo
 
