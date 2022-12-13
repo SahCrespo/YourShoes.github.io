@@ -12,7 +12,7 @@
 
 ![Animação](https://user-images.githubusercontent.com/85465530/207345479-d003aff3-6039-4707-bd56-1d0bab81a509.gif)
 
-## Tecnologia Utilizada
+## Tecnologia utilizada até agora
 
 * HTML
 * CSS
