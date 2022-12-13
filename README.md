@@ -1,12 +1,12 @@
 ## Bem Vindo!!
 
-*Obrigada por ver meu projeto, ainda não esta finalizado, faltam algumas coisas ainda.
-*Com esse projeto estou mostrando todo meu conhecimento adquirido nessa jornada de estudos, espero que goste. 👋
+* Obrigada por ver meu projeto, ainda não esta finalizado, faltam algumas coisas ainda.
+* Com esse projeto estou mostrando todo meu conhecimento adquirido nessa jornada de estudos, espero que goste. 👋
 
 
 ## O projeto
 
-No projeto Yourshoes eu trabalhei no desenvolvimento completo do HTML, CSS e estou aprendendo JavaScript para poder implementar no site também. Além disso, também fiz o Desing do site no Figma.
+* No projeto Yourshoes eu trabalhei no desenvolvimento completo do HTML, CSS e estou aprendendo JavaScript para poder implementar no site também. Além disso, também fiz o Desing do site no Figma.
 
 ### Site Responsivo
 
@@ -14,9 +14,9 @@ No projeto Yourshoes eu trabalhei no desenvolvimento completo do HTML, CSS e est
 
 ## Tecnologia Utilizada
 
-*HTML
-*CSS
-*FIGMA
+* HTML
+* CSS
+* FIGMA
 
 ## Link
  https://sahcrespo.github.io/YourShoes.github.io/
