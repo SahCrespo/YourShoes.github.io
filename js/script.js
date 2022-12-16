@@ -1,9 +1,13 @@
-/*const botao = document.querySelector('.borao')
+const links = document.querySelectorAll('.header-menu a')
 
-function mostrar() {
-  const menu = document.querySelector('.header-menu')
+function ativarLinks(link) {
+  const url = location.href
+  const href = link.href
 
-  menu.classList.toggle('toggle')
+  url.includes
+  if (url.includes(href)) {
+    link.classList.add('ativo')
+  }
 }
 
-botao.addEventListener('click', mostrar)*/
+links.forEach(ativarLinks)
